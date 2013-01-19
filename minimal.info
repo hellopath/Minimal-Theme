@@ -1,0 +1,39 @@
+name = minimal
+description = Minimal starter theme for Drupal 7
+screenshot = images/screenshot.gif
+core = "7.x"
+project = "minimal"
+engine = phptemplate
+
+regions[page_top] = Page top
+regions[header] = Header
+regions[highlight] = Highlight
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer] = Footer
+regions[page_bottom] = Page bottom
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = search
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+stylesheets[all][] = css/ie.css
+stylesheets[all][] = css/screen.css
+stylesheets[print][] = css/print.css
+
+settings[basic_tabs] = 1
+settings[basic_breadcrumb_separator] = »
+settings[wireframe_mode] = 0
+settings[clear_registry] = 0
+version = ""
+core = "7.x"
+project = "minimal"
+
